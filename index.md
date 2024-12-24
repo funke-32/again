@@ -35,8 +35,7 @@ Some websites rely on dynamic resources and assets not included in the HTML docu
 Now that we’ve covered what sets P3 apart from other services, let’s dive into the technical details of how P3 operates.
  
 How P3 works
-Policies
-The foundation of P3’s approach lies in Policies. Policies are used to group pages and apply optimization rules to them. With Policies, you can define URL patterns of pages to be optimized, set the target region for content delivery, specify device types for tailored optimizations, and choose the level of optimization needed. You can also pass custom headers to the optimized content, ensuring precise control over how and where your content is delivered. Visit the official documentation to create a new Policy.
+
 Optimizations
 When users access a webpage, their request passes through the Content Delivery Network (CDN). If CDN is configured with P3, it directs the request to the P3 gateway. At this stage, the HTML ReWriter checks the memory cache for optimization rules matching the URL pattern. If applicable rules are found, they’re instantly applied, and the optimized page is returned to the user.
 If there are no optimization rules in memory for that URL, the HTML ReWriter forwards the request to the P3 Controller. The Controller then checks for any configured policies that match the URL. If no policies are found, the request returns without P3 optimizations, pulling content directly from the origin back to the user.
