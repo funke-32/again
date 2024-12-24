@@ -1,6 +1,10 @@
-# trim
+# Test Release Notes
 
-## 1.1.0
+## 2.0.0
+
+### Major Changes
+
+- b93875d: Added HTML ReWriter to focus on the notes.
 
 ### Minor Changes
 
