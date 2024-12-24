@@ -1,5 +1,0 @@
----
-"trim": minor
----
-
-Removed validator
